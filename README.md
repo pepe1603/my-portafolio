@@ -50,7 +50,7 @@ Este es un portafolio personal que utiliza Vue 3, donde puedes cambiar entre un 
 - Vue 3
 - Vite
 - Tailwindcss 4
-- Vuetify 3
+- Vuetify 3git add
 - EmailJS (para enviar correos electrónicos)
 
 ## Instalación

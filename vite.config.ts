@@ -6,6 +6,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/my-portafolio/',  // Cambia esto por el nombre de tu repositorio
   plugins: [
     vue(),
     vueDevTools(),

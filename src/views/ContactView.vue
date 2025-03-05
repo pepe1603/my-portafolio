@@ -100,12 +100,14 @@
       </div>
     </section>
 
+    <!--
     <button
       @click="modal.showModal"
       class="border border-indigo-500 bg-indigo-500 rounded font-normal px-3 py-2 text-white hover:bg-indigo-400"
     >
       Show Modal
     </button>
+  -->
 
     <p class="text-xl font-bold my-8">Puedes contactarme en mis redes sociales:</p>
     <SocialLinks />
