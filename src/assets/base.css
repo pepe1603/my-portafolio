@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --color-background: #ffffff;
+  --color-background-darker: #f0f0f0;
+  --color-navbar: rgba(255, 255, 255, 0.5);
+  --color-footer: #dddddd;
+  --color-text: #222222;
+  --color-text-secondary: #444444;
+  --color-primary: #007bff;
+  --color-secondary: #6c757d;
+}
+
+/* Modo oscuro */
+[data-theme="dark"] {
+  --color-background: #1a1a1a;
+  --color-background-darker: #121212;
+/*  --color-navbar: rgba(30, 30, 30, 0.8);*/
+  --color-navbar: rgba(0, 0, 0, 0.5);
+  --color-footer: #0a0a0a;
+  --color-text: #e0e0e0;
+  --color-text-secondary: #b0b0b0;
+  --color-primary: #0d6efd;
+  --color-secondary: #adb5bd;
+}
+
+body {
+  min-height: 100vh;
+  width: 100vw;
+  line-height: 1.6;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  background-color: var(--color-background);
+  color: var(--color-text);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}

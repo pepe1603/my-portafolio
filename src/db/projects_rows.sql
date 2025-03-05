@@ -1,0 +1,15 @@
+
+//Definicion de tabal en supabase
+
+create table public.projects (
+  id uuid not null default gen_random_uuid (),
+  title text not null,
+  description text null,
+  image_url text null,
+  github_url text null,
+  demo_url text null,
+  constraint projects_pkey primary key (id)
+) TABLESPACE pg_default;
+
+
+INSERT INTO "public"."projects" ("id", "title", "description", "image_url", "github_url", "demo_url") VALUES ('0c9aa29a-3c77-44d5-ab48-1f453289e911', 'sitio web Wordpress', 'sitio mercado libnre', 'https://wtgkrjtnxjscxulzvqzn.supabase.co/storage/v1/object/public/project-images/1739075328532-photo_2025-02-08_22-28-32.jpg', 'daw', '342424'), ('375b4006-414f-42e0-b7c4-a69bdd878680', 'prueba 3', 'NO hay nad aquye ver aqui', 'https:////wtgkrjtnxjscxulzvqzn.supabase.co/storage/v1/object/public/project-images/1738792567280-wallpaper_4.jpg', 'dawdawdawd', 'dawdawdaw'), ('519ceade-5a14-4cd7-be3d-dc1fd1020492', 'Projecto 4 web', 'ninguna description', 'https:////wtgkrjtnxjscxulzvqzn.supabase.co/storage/v1/object/public/project-images/1738766810873-TinyPNG___Developer_API_-_Google_Chrome_20_11_2024_09_26_02_a._m..png', null, null), ('5dcd7c35-8816-4eda-928e-42be3217f263', 'Proyecto 1', 'este es el proyecto 1', 'https:////wtgkrjtnxjscxulzvqzn.supabase.co/storage/v1/object/public/project-images/1738793464191-img-chica.png', 'http://mi-proyect', 'dwadawdwad awdawd d'), ('880fabba-1475-4d34-95ad-d4542aa370f6', 'proyecto REdis', 'REdis APk mobile', 'https://wtgkrjtnxjscxulzvqzn.supabase.co/storage/v1/object/public/project-images/1738832535670-wallpaper_3.jpg', 'github.treDis', ''), ('8be6b082-1f20-425a-b5a9-87cec1d4b847', 'pagina web', 'pagina estatica con htm,l y css', 'https:////wtgkrjtnxjscxulzvqzn.supabase.co/storage/v1/object/public/project-images/1738776955627-img-maid.jpg', '1321c1cv31', null), ('ac0a2717-821a-4375-b5b2-c3ac7a97a57c', 'dwad', 'dawdwadawddwadawd awd awd awd awd aw dawd awd ', 'https:////wtgkrjtnxjscxulzvqzn.supabase.co/storage/v1/object/public/project-images/1738792994466-wallpaper_2.jpg', 'dawdawdaw', ''), ('aebba02e-4060-4700-87e5-8a724b94e07e', 'Calcualñdora ', 'Tailwiundccss , vuejs3, ', 'https://wtgkrjtnxjscxulzvqzn.supabase.co/storage/v1/object/public/project-images/1738832654770-wallpaper_4.jpg', 'esfesff34wf3f', 'da3dawddawdaw'), ('efc4f081-0f3d-424a-bf00-034c00848c02', 'Progrrama pthon ', 'Desarrollado en Anaconda ide ', 'https:////wtgkrjtnxjscxulzvqzn.supabase.co/storage/v1/object/public/project-images/1738792068002-wallpaper_1.jpg', 'ddawdawd', ''), ('f0568326-ec9f-43a0-ad0d-d842eae244ca', 'proyecto 1', 'f proyecto 122', 'https://wtgkrjtnxjscxulzvqzn.supabase.co/storage/v1/object/public/project-images/1739075221764-photo_2023-10-19_09-56-04.jpg', 'http://github.com /fdadw/2134', ''), ('fa92e5a4-3a8c-461a-80c7-0da3a0c69fec', 'serie 1234', 'ninguna', 'https://wtgkrjtnxjscxulzvqzn.supabase.co/storage/v1/object/public/project-images/1738824593426-TinyPNG___Developer_API_-_Google_Chrome_20_11_2024_09_26_02_a._m..png', 'github', '');
